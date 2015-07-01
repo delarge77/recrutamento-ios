@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		515DBC2FEF8FB931103C2A81 /* libPods-RecrutamentoMovile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9E98458FC0264ED49D50154 /* libPods-RecrutamentoMovile.a */; };
 		87D4D2A51B436FCD0056DD7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D4D2A41B436FCD0056DD7F /* main.m */; };
 		87D4D2A81B436FCD0056DD7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D4D2A71B436FCD0056DD7F /* AppDelegate.m */; };
 		87D4D2AB1B436FCD0056DD7F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D4D2AA1B436FCD0056DD7F /* ViewController.m */; };
@@ -14,6 +15,10 @@
 		87D4D2B01B436FCD0056DD7F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87D4D2AF1B436FCD0056DD7F /* Images.xcassets */; };
 		87D4D2B31B436FCD0056DD7F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87D4D2B11B436FCD0056DD7F /* LaunchScreen.xib */; };
 		87D4D2BF1B436FCD0056DD7F /* RecrutamentoMovileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D4D2BE1B436FCD0056DD7F /* RecrutamentoMovileTests.m */; };
+		87D4D2CB1B4374E50056DD7F /* TracktWS.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D4D2CA1B4374E50056DD7F /* TracktWS.m */; };
+		87D4D2D21B4376520056DD7F /* TVShowVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D4D2D11B4376520056DD7F /* TVShowVO.swift */; };
+		87D4D2D61B4377870056DD7F /* TVShowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D4D2D51B4377870056DD7F /* TVShowCell.m */; };
+		87D4D2DA1B43836E0056DD7F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D4D2D91B43836E0056DD7F /* BaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37959341C89F47EA88EA15B0 /* Pods-RecrutamentoMovile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecrutamentoMovile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RecrutamentoMovile/Pods-RecrutamentoMovile.debug.xcconfig"; sourceTree = "<group>"; };
+		3D1982F75019CFB77F48EF66 /* Pods-RecrutamentoMovile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecrutamentoMovile.release.xcconfig"; path = "Pods/Target Support Files/Pods-RecrutamentoMovile/Pods-RecrutamentoMovile.release.xcconfig"; sourceTree = "<group>"; };
 		87D4D29F1B436FCD0056DD7F /* RecrutamentoMovile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecrutamentoMovile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87D4D2A31B436FCD0056DD7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87D4D2A41B436FCD0056DD7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +47,15 @@
 		87D4D2B81B436FCD0056DD7F /* RecrutamentoMovileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecrutamentoMovileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87D4D2BD1B436FCD0056DD7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87D4D2BE1B436FCD0056DD7F /* RecrutamentoMovileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecrutamentoMovileTests.m; sourceTree = "<group>"; };
+		87D4D2C91B4374E50056DD7F /* TracktWS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TracktWS.h; path = WS/TracktWS.h; sourceTree = "<group>"; };
+		87D4D2CA1B4374E50056DD7F /* TracktWS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TracktWS.m; path = WS/TracktWS.m; sourceTree = "<group>"; };
+		87D4D2D01B4376510056DD7F /* RecrutamentoMovile-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RecrutamentoMovile-Bridging-Header.h"; sourceTree = "<group>"; };
+		87D4D2D11B4376520056DD7F /* TVShowVO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TVShowVO.swift; path = VO/TVShowVO.swift; sourceTree = "<group>"; };
+		87D4D2D41B4377870056DD7F /* TVShowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TVShowCell.h; path = CustomCells/TVShowCell.h; sourceTree = "<group>"; };
+		87D4D2D51B4377870056DD7F /* TVShowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TVShowCell.m; path = CustomCells/TVShowCell.m; sourceTree = "<group>"; };
+		87D4D2D81B43836E0056DD7F /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = ViewControllers/BaseViewController.h; sourceTree = "<group>"; };
+		87D4D2D91B43836E0056DD7F /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = ViewControllers/BaseViewController.m; sourceTree = "<group>"; };
+		E9E98458FC0264ED49D50154 /* libPods-RecrutamentoMovile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RecrutamentoMovile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				515DBC2FEF8FB931103C2A81 /* libPods-RecrutamentoMovile.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +77,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32C7E03A6AF9C39256756274 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37959341C89F47EA88EA15B0 /* Pods-RecrutamentoMovile.debug.xcconfig */,
+				3D1982F75019CFB77F48EF66 /* Pods-RecrutamentoMovile.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		87D4D2961B436FCD0056DD7F = {
 			isa = PBXGroup;
 			children = (
 				87D4D2A11B436FCD0056DD7F /* RecrutamentoMovile */,
 				87D4D2BB1B436FCD0056DD7F /* RecrutamentoMovileTests */,
 				87D4D2A01B436FCD0056DD7F /* Products */,
+				32C7E03A6AF9C39256756274 /* Pods */,
+				A75B52700DAB2B6EB2702CE0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,12 +111,15 @@
 			children = (
 				87D4D2A61B436FCD0056DD7F /* AppDelegate.h */,
 				87D4D2A71B436FCD0056DD7F /* AppDelegate.m */,
-				87D4D2A91B436FCD0056DD7F /* ViewController.h */,
-				87D4D2AA1B436FCD0056DD7F /* ViewController.m */,
+				87D4D2C81B4371530056DD7F /* ViewControllers */,
 				87D4D2AC1B436FCD0056DD7F /* Main.storyboard */,
 				87D4D2AF1B436FCD0056DD7F /* Images.xcassets */,
 				87D4D2B11B436FCD0056DD7F /* LaunchScreen.xib */,
 				87D4D2A21B436FCD0056DD7F /* Supporting Files */,
+				87D4D2CC1B4374ED0056DD7F /* WS */,
+				87D4D2D31B43765B0056DD7F /* VO */,
+				87D4D2D01B4376510056DD7F /* RecrutamentoMovile-Bridging-Header.h */,
+				87D4D2D71B43778D0056DD7F /* CustomCell */,
 			);
 			path = RecrutamentoMovile;
 			sourceTree = "<group>";
@@ -119,6 +150,51 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		87D4D2C81B4371530056DD7F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				87D4D2A91B436FCD0056DD7F /* ViewController.h */,
+				87D4D2AA1B436FCD0056DD7F /* ViewController.m */,
+				87D4D2D81B43836E0056DD7F /* BaseViewController.h */,
+				87D4D2D91B43836E0056DD7F /* BaseViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		87D4D2CC1B4374ED0056DD7F /* WS */ = {
+			isa = PBXGroup;
+			children = (
+				87D4D2C91B4374E50056DD7F /* TracktWS.h */,
+				87D4D2CA1B4374E50056DD7F /* TracktWS.m */,
+			);
+			name = WS;
+			sourceTree = "<group>";
+		};
+		87D4D2D31B43765B0056DD7F /* VO */ = {
+			isa = PBXGroup;
+			children = (
+				87D4D2D11B4376520056DD7F /* TVShowVO.swift */,
+			);
+			name = VO;
+			sourceTree = "<group>";
+		};
+		87D4D2D71B43778D0056DD7F /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				87D4D2D41B4377870056DD7F /* TVShowCell.h */,
+				87D4D2D51B4377870056DD7F /* TVShowCell.m */,
+			);
+			name = CustomCell;
+			sourceTree = "<group>";
+		};
+		A75B52700DAB2B6EB2702CE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9E98458FC0264ED49D50154 /* libPods-RecrutamentoMovile.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87D4D2C21B436FCD0056DD7F /* Build configuration list for PBXNativeTarget "RecrutamentoMovile" */;
 			buildPhases = (
+				12D1D671362873481FE260C9 /* Check Pods Manifest.lock */,
 				87D4D29B1B436FCD0056DD7F /* Sources */,
 				87D4D29C1B436FCD0056DD7F /* Frameworks */,
 				87D4D29D1B436FCD0056DD7F /* Resources */,
+				E15A0F14AB83D75C3B5DBCDC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,13 +292,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12D1D671362873481FE260C9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E15A0F14AB83D75C3B5DBCDC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RecrutamentoMovile/Pods-RecrutamentoMovile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		87D4D29B1B436FCD0056DD7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87D4D2CB1B4374E50056DD7F /* TracktWS.m in Sources */,
 				87D4D2AB1B436FCD0056DD7F /* ViewController.m in Sources */,
+				87D4D2D61B4377870056DD7F /* TVShowCell.m in Sources */,
+				87D4D2D21B4376520056DD7F /* TVShowVO.swift in Sources */,
 				87D4D2A81B436FCD0056DD7F /* AppDelegate.m in Sources */,
+				87D4D2DA1B43836E0056DD7F /* BaseViewController.m in Sources */,
 				87D4D2A51B436FCD0056DD7F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,21 +460,28 @@
 		};
 		87D4D2C31B436FCD0056DD7F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37959341C89F47EA88EA15B0 /* Pods-RecrutamentoMovile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = RecrutamentoMovile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RecrutamentoMovile/RecrutamentoMovile-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		87D4D2C41B436FCD0056DD7F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D1982F75019CFB77F48EF66 /* Pods-RecrutamentoMovile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = RecrutamentoMovile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RecrutamentoMovile/RecrutamentoMovile-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -416,6 +538,7 @@
 				87D4D2C41B436FCD0056DD7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87D4D2C51B436FCD0056DD7F /* Build configuration list for PBXNativeTarget "RecrutamentoMovileTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +547,7 @@
 				87D4D2C71B436FCD0056DD7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

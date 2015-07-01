@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+@objc class TVShowVO : NSObject {
+    var name = "null"
+    var pictureStringURL = "null"
+}

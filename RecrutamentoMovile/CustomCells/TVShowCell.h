@@ -10,4 +10,7 @@
 
 @interface TVShowCell : UICollectionViewCell
 
+@property (nonatomic, weak) IBOutlet UIImageView *showImageView;
+@property (nonatomic, weak) IBOutlet UILabel *showNameLabel;
+
 @end

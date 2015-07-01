@@ -6,9 +6,12 @@
 //  Copyright (c) 2015 Alessandro dos Santos Pinto. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#import <UIKit/UIKit.h>
+#import "TracktWS.h"
+#import "BaseViewController.h"
+
+@interface ViewController : BaseViewController <UICollectionViewDataSource, UICollectionViewDelegate, TrackWSDelegate>
 
 
 @end
