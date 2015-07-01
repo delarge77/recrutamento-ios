@@ -24,14 +24,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    [[AFNetworkReachabilityManager sharedManager] startMonitoring];
     // Do any additional setup after loading the view, typically from a nib.
     
     self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
-    TracktWS *ws = [[TracktWS alloc] init];
-    [ws setDelegate:self];
-    [ws getMostPopularShows];
+    
+    [[AFNetworkReachabilityManager sharedManager] startMonitoring];
+    [[AFNetworkReachabilityManager sharedManager] setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status){
+        if (!status == AFNetworkReachabilityStatusNotReachable) {
+            TracktWS *ws = [[TracktWS alloc] init];
+            [ws setDelegate:self];
+            [ws getMostPopularShows];
+        }else{
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Sem Conexão" message:@"Por favor verifique sua conexão e tente novamente" delegate:self cancelButtonTitle:@"Cancelar" otherButtonTitles:nil, nil];
+            [alert show];
+        }
+    }];
 }
 
 #pragma mark - Memory Management
